@@ -1,0 +1,16 @@
+using UnityEngine;
+
+public class NewMonoBehaviourScript : MonoBehaviour
+{
+    [SerializeField] private Transform target;
+    [SerializeField] private Vector3 rotationAxis = Vector3.up; 
+    [SerializeField] private float rotationSpeed = 20f;
+
+    void Update()
+    {
+        if (target != null)
+        {
+            transform.RotateAround(target.position, rotationAxis, rotationSpeed * Time.deltaTime);
+        }
+    }
+}
