@@ -1,4 +1,4 @@
 # RotacaoCuboUnity
 
-Lucca Freixo Bittencourt
+Lucca Freixo Bittencourt &
 Mauricio de Carvalho Rodrigues
